@@ -1,14 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, TextInput, View } from 'react-native';
-
+import Title from './src/components/title/';
+import Main from './src/components/main/'
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>INFORMAÇÕES DE CONTATO</Text>
-      <StatusBar style="auto" />
-      <Text>Nome:</Text>
-      <TextInput></TextInput>
-      <StatusBar style="auto" />
+      <Title />
+      <Main />
     </View>
   );
 }
